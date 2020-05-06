@@ -1,25 +1,20 @@
 import bisect
+import itertools
 import matplotlib.pyplot as plt
 import numpy as np
 from random import randint
 from json import load
 
 
-def parse(filename):
+def parse(filename: str):
     with open(filename) as file:
         f = load(file)
-        n = int(f["n"])
-        prob = [int(a) for a in f["probabilities"]]
-        trans = []
-        for i in range(n):
-            one = [float(a) for a in f["transformations"][i][0]]
-            two = [float(a) for a in f["transformations"][i][1]]
-            arr = np.array((one, two))
-            trans.append(arr)
-    return prob, trans
+        n = f["number_of_transformations"]
+        prob = f["probabilities"]
+    return prob, [np.array(f["transformations"][i]) for i in range(n)]
 
 
-def draw(prob, trans, n_iter=50000):
+def draw(n_iter=50000):
     coord = np.zeros((2, n_iter + 1))
     iter = 0
 
@@ -32,14 +27,11 @@ def draw(prob, trans, n_iter=50000):
         coord[:, iter] = new_coord
 
     plt.scatter(coord[0, :], coord[1, :], s=0.2, edgecolors='green')
-    plt.savefig("results/" + filename)
+    plt.savefig(f"results/{filename}")
     plt.show()
 
 
-filename = "fern"
-prob, trans = parse("examples/" + filename + ".json")
-
-for i in range(len(prob) - 1):
-    prob[i + 1] += prob[i]
-
-draw(prob, trans)
+filename = "barnsley-fern"
+prob, trans = parse(f"examples/{filename}.json")
+prob = list(itertools.accumulate(prob, lambda x, y: x + y))
+draw()
