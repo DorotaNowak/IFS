@@ -11,7 +11,7 @@ def parse(filename: str):
         f = load(file)
         n = f["number_of_transformations"]
         prob = f["probabilities"]
-    return prob, [np.array(f["transformations"][i]) for i in range(n)]
+        return prob, [np.array(f["transformations"][i]) for i in range(n)]
 
 
 def draw(n_iter=50000):
