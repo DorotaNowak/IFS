@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa1d701f-92fc-48b8-9ae2-8844a6d917b2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/IFS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/IFS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ifs.py" beforeDir="false" afterPath="$PROJECT_DIR$/ifs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/barnsley-fern.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/barnsley-fern.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ifs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symmetric-tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/IFS.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,51 +15,22 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/IFS$ifs.coverage" NAME="ifs Coverage Results" MODIFIED="1589387939120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/IFS$symmetric_tree.coverage" NAME="symmetric-tree Coverage Results" MODIFIED="1589388568066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IFS$symmetric_tree.coverage" NAME="symmetric-tree Coverage Results" MODIFIED="1589464699709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IFS$IFS.coverage" NAME="IFS Coverage Results" MODIFIED="1589464774735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="IFS" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="barnsley-fern.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/barnsley-fern.json">
+      <file leaf-file-name="IFS.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IFS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ifs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ifs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="59" />
+            <state relative-caret-position="264">
+              <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="symmetric-tree.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/symmetric-tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sierpinski-triangle.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/sierpinski-triangle.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -93,6 +62,7 @@
         <option value="$PROJECT_DIR$/examples/symmetric-tree.json" />
         <option value="$PROJECT_DIR$/ifs.py" />
         <option value="$PROJECT_DIR$/symmetric-tree.py" />
+        <option value="$PROJECT_DIR$/IFS.py" />
       </list>
     </option>
   </component>
@@ -123,11 +93,6 @@
             <path>
               <item name="IFS" type="b2602c69:ProjectViewProjectNode" />
               <item name="IFS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IFS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IFS" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IFS" type="b2602c69:ProjectViewProjectNode" />
@@ -165,7 +130,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.symmetric-tree">
+  <component name="RunManager" selected="Python.IFS">
+    <configuration name="IFS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IFS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IFS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="ifs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="IFS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -198,7 +182,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/symmetric-tree.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Dorota Nowak\Desktop\Studia\2019-2020 lato\IFS\IFS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,9 +191,11 @@
     <list>
       <item itemvalue="Python.ifs" />
       <item itemvalue="Python.symmetric-tree" />
+      <item itemvalue="Python.IFS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.IFS" />
         <item itemvalue="Python.symmetric-tree" />
         <item itemvalue="Python.ifs" />
       </list>
@@ -292,7 +278,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symmetric-tree.py">
+    <entry file="file://$PROJECT_DIR$/IFS.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
@@ -309,7 +295,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ifs.py">
+    <entry file="file://$PROJECT_DIR$/IFS.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
@@ -326,7 +312,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symmetric-tree.py">
+    <entry file="file://$PROJECT_DIR$/IFS.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
@@ -343,7 +329,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ifs.py">
+    <entry file="file://$PROJECT_DIR$/IFS.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
@@ -375,7 +361,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ifs.py">
+    <entry file="file://$PROJECT_DIR$/IFS.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="59" />
@@ -385,10 +371,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symmetric-tree.py">
+    <entry file="file://$PROJECT_DIR$/IFS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        <state relative-caret-position="264">
+          <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
